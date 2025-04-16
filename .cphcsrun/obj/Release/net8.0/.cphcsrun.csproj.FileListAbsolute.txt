@@ -1,0 +1,4 @@
+d:\project\LeetCode\.cphcsrun\obj\Release\net8.0\.cphcsrun.GeneratedMSBuildEditorConfig.editorconfig
+d:\project\LeetCode\.cphcsrun\obj\Release\net8.0\.cphcsrun.AssemblyInfoInputs.cache
+d:\project\LeetCode\.cphcsrun\obj\Release\net8.0\.cphcsrun.AssemblyInfo.cs
+d:\project\LeetCode\.cphcsrun\obj\Release\net8.0\.cphcsrun.csproj.CoreCompileInputs.cache
