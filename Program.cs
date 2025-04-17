@@ -13,6 +13,7 @@ class Program
 
     static void Main(string[] args)
     {
+        //test
         Console.Write(Solution.MaxSatisfied(new int[] { 2, 6, 6, 9 }, new int[] { 0, 0, 1, 1 }, 1));
         //bool a = Solution.RepeatedSubstringPattern("abaababaab");
     }
