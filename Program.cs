@@ -13,7 +13,7 @@ class Program
 
     static void Main(string[] args)
     {
-        Console.Write(Solution.GetAverages(new int[] { 7, 4, 3, 9, 1, 8, 5, 2, 6 }, 3));
+        Console.Write(Solution.MaxSatisfied(new int[] { 2, 6, 6, 9 }, new int[] { 0, 0, 1, 1 }, 1));
         //bool a = Solution.RepeatedSubstringPattern("abaababaab");
     }
 

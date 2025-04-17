@@ -5,7 +5,7 @@
  */
 
 // @lc code=start
-public class Solution
+public class Solution2379
 {
     public int MinimumRecolors(string blocks, int k)
     {
