@@ -8,7 +8,7 @@
 using System.Linq.Expressions;
 using System.Text;
 
-public class Solution
+public class Solution1297
 {
     public int MaxFreq(string s, int maxLetters, int minSize, int maxSize)
     {
