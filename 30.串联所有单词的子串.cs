@@ -5,7 +5,7 @@
  */
 
 // @lc code=start
-public class Solution
+public class Solution30
 {
     public IList<int> FindSubstring(string s, string[] words)
     {

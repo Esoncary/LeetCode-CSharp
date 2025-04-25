@@ -4,7 +4,7 @@ class Program
 {
     static void Main(string[] args)
     {
-        Solution.FindSubstring("barfoothefoobarman", new string[] { "foo", "bar" });
+        Solution.SubStrHash("leetcode", 7, 20, 2, 0);
     }
 
 }
