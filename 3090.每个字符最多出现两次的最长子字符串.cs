@@ -5,7 +5,7 @@
  */
 
 // @lc code=start
-public class Solution
+public class Solution3090
 {
     public int MaximumLengthSubstring(string s)
     {
