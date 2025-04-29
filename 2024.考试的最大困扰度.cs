@@ -5,7 +5,7 @@
  */
 
 // @lc code=start
-public class Solution
+public class Solution2024
 {
     public int MaxConsecutiveAnswers(string answerKey, int k)
     {
