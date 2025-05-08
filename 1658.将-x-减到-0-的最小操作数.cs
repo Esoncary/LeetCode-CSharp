@@ -5,7 +5,7 @@
  */
 
 // @lc code=start
-public class Solution
+public class Solution1658
 {
     public int MinOperations(int[] nums, int x)
     {
