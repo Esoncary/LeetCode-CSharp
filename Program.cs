@@ -4,7 +4,7 @@ class Program
 {
     static void Main(string[] args)
     {
-        Solution.LongestSemiRepetitiveSubstring("19001668");
+        Solution.MaxFrequency(new int[] { 3, 9, 6 }, 2);
     }
 
 }
