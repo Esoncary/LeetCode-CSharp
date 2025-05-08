@@ -1,36 +1,43 @@
 {
   "version": 3,
   "targets": {
-    "net9.0": {}
+    "net8.0": {}
   },
   "libraries": {},
   "projectFileDependencyGroups": {
-    "net9.0": []
+    "net8.0": []
   },
   "packageFolders": {
-    "C:\\Users\\CloudsMaker\\.nuget\\packages\\": {}
+    "C:\\Users\\CloudsMaker\\.nuget\\packages\\": {},
+    "D:\\software\\Visual Studio\\tool\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\project\\LeetCode\\LeetCode.csproj",
+      "projectUniqueName": "E:\\project\\LeetCode\\LeetCode.csproj",
       "projectName": "LeetCode",
-      "projectPath": "D:\\project\\LeetCode\\LeetCode.csproj",
+      "projectPath": "E:\\project\\LeetCode\\LeetCode.csproj",
       "packagesPath": "C:\\Users\\CloudsMaker\\.nuget\\packages\\",
-      "outputPath": "D:\\project\\LeetCode\\obj\\",
+      "outputPath": "E:\\project\\LeetCode\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "D:\\software\\Visual Studio\\tool\\NuGetPackages"
+      ],
       "configFilePaths": [
-        "C:\\Users\\CloudsMaker\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "C:\\Users\\CloudsMaker\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
-        "net9.0"
+        "net8.0"
       ],
       "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
-        "net9.0": {
-          "targetAlias": "net9.0",
+        "net8.0": {
+          "targetAlias": "net8.0",
           "projectReferences": {}
         }
       },
@@ -43,12 +50,11 @@
         "enableAudit": "true",
         "auditLevel": "low",
         "auditMode": "direct"
-      },
-      "SdkAnalysisLevel": "9.0.200"
+      }
     },
     "frameworks": {
-      "net9.0": {
-        "targetAlias": "net9.0",
+      "net8.0": {
+        "targetAlias": "net8.0",
         "imports": [
           "net461",
           "net462",
@@ -65,7 +71,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.203/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.406/PortableRuntimeIdentifierGraph.json"
       }
     }
   }
