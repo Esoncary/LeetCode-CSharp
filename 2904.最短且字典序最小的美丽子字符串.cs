@@ -5,7 +5,7 @@
  */
 
 // @lc code=start
-public class Solution
+public class Solution2904
 {
     public string ShortestBeautifulSubstring(string s, int k)
     {

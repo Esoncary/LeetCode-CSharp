@@ -6,8 +6,7 @@ class Program
 {
     static void Main(string[] args)
     {
-        //         Solution.ShortestBeautifulSubstring("100011001",
-        // 3);
+        Solution.BalancedString("WWEQERQWQWWRWWERQWEQ");
     }
 
 }
