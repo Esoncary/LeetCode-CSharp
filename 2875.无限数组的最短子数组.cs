@@ -5,7 +5,7 @@
  */
 
 // @lc code=start
-public class Solution
+public class Solution2875
 {
     public int MinSizeSubarray(int[] nums, int target)
     {
