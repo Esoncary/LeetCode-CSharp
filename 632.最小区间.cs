@@ -1,4 +1,4 @@
-public class Solution
+public class Solution632
 {
     public int[] SmallestRange(IList<IList<int>> nums)
     {
