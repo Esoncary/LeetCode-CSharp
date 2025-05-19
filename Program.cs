@@ -6,7 +6,8 @@ class Program
 {
     static void Main(string[] args)
     {
-        Solution.NumberOfSubstrings("abcabc");
+        Solution.ValidSubstringCount("abcabc",
+"abc");
     }
 
 }
