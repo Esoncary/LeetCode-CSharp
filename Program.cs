@@ -6,7 +6,7 @@ class Program
 {
     static void Main(string[] args)
     {
-        Solution.CountOfSubstrings("ieaouqqieaouqq", 1);
+        Solution.FindClosestElements([1], 1, 1);
     }
 
 }
