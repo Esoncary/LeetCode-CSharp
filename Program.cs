@@ -6,7 +6,7 @@ class Program
 {
     static void Main(string[] args)
     {
-        Solution.FindClosestElements([1], 1, 1);
+        Solution.CountPairs([-1, 1, 2, 3, 1], 2);
     }
 
 }
