@@ -6,7 +6,7 @@ class Program
 {
     static void Main(string[] args)
     {
-        Solution.CountPairs([-1, 1, 2, 3, 1], 2);
+        Solution.ThreeSumClosest([10, 20, 30, 40, 50, 60, 70, 80, 90], 1);
     }
 
 }
