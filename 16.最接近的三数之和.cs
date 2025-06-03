@@ -5,7 +5,7 @@
  */
 
 // @lc code=start
-public class Solution
+public class Solution16
 {
     public int ThreeSumClosest(int[] nums, int target)
     {
