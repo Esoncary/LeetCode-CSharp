@@ -6,7 +6,7 @@ class Program
 {
     static void Main(string[] args)
     {
-        Solution.BagOfTokensScore([], 85);
+        Solution.IncremovableSubarrayCount([8, 7, 6, 6]);
     }
 
 }
