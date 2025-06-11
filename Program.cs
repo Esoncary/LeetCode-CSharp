@@ -6,7 +6,7 @@ class Program
 {
     static void Main(string[] args)
     {
-        Solution.IncremovableSubarrayCount([8, 7, 6, 6]);
+        Solution.SortColors([2, 0, 2, 1, 1, 0]);
     }
 
 }
