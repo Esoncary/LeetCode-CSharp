@@ -6,7 +6,7 @@ class Program
 {
     static void Main(string[] args)
     {
-        Solution.SortColors([2, 0, 2, 1, 1, 0]);
+        Solution.MaxDistance([55, 30, 5, 4, 2], [100, 20, 10, 10, 5]);
     }
 
 }
