@@ -14,7 +14,7 @@ public class Solution1855
         // int n1 = nums1.Length;
         // int n2 = nums2.Length;
         // int sum = 0;
-        // int ans = int.MinValue;
+        // int ans = 0;
         // while (i < n1)
         // {
         //     while (j < n2)
@@ -35,7 +35,6 @@ public class Solution1855
         //         }
         //     }
         //     i++;
-        //     j = i;
         // }
         // return ans;
         int n1 = nums1.Length, n2 = nums2.Length;
