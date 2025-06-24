@@ -5,7 +5,7 @@
  */
 
 // @lc code=start
-public class Solution
+public class Solution2486
 {
     public int AppendCharacters(string s, string t)
     {

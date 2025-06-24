@@ -6,7 +6,8 @@ class Program
 {
     static void Main(string[] args)
     {
-        Solution.FindLongestWord("abpcplea", ["ale", "apple", "monkey", "plea"]);
+        Solution.MinimumAddedInteger([9, 4, 3, 9, 4],
+[7, 8, 8]);
     }
 
 }
