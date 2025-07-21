@@ -5,28 +5,26 @@
  */
 
 // @lc code=start
-public class Solution35 {
-    public int SearchInsert(int[] nums, int target) {
-        int i = 0;
-        int j = nums.Length - 1;
-        int mid;
-        while( i <= j)
+public class Solution35
+{
+    public int SearchInsert(int[] nums, int target)
+    {
+        return lower_bound3(nums, target);
+    }
+    public int lower_bound3(int[] nums, int target)
+    {
+        int l = -1;
+        int r = nums.Length;
+        while (l + 1 < r)
         {
-            mid = (i + j) / 2;
-            if(nums[mid] == target)
-            {
-                return mid;
-            }
-            else if(nums[mid] < target)
-            {
-                i = mid + 1;
-            }
+            int mid = l + (r - l) / 2;
+            if (nums[mid] >= target)
+                r = mid;
             else
-            {
-                j = mid - 1;
-            }
-        } 
-        return i;
+                l = mid;
+        }
+        return r;
+
     }
 }
 // @lc code=end
