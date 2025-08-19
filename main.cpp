@@ -5,12 +5,20 @@
 #include <algorithm>
 
 using namespace std;
+int getValueFromUser()
+{
+    cout << "Enter a interger\n";
+    int input{};
+    cin >> input;
+    return input;
+}
+void printDouble(int value)
+{
+    cout << value << " Double is " << value * 2;
+}
 int main()
 {
-    std::cout << "\nHello " << "My name is zox";
-    std::cout << "\nEnter a number";
-    int x{};
-    std::cin >> x;
-    std::cout << "You entered " << x << '\n';
+    int input{getValueFromUser()};
+    printDouble(input);
     return 0;
 }
